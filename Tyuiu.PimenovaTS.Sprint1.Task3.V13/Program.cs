@@ -16,7 +16,7 @@ namespace Tyuiu.PimenovaTS.Sprint1.Task3.V13
             Console.Title = "Спринт #1 | Выполнила: Пименова Т. С. | ИИПб-23-2";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Базовые навыки работы C#                                          *");
+            Console.WriteLine("* Тема: Операторы составного присваивания                                 *");
             Console.WriteLine("* Задание #3                                                              *");
             Console.WriteLine("* Вариант #13                                                             *");
             Console.WriteLine("* Выполнила: Пименова Т. С. | ИИПб-23-2                                   *");
