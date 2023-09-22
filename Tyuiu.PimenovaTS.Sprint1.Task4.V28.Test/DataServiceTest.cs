@@ -1,9 +1,8 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using Tyuiu.PimenovaTS.Sprint1.Task3.V13.Lib;
+using Tyuiu.PimenovaTS.Sprint1.Task4.V28.Lib;
 
-
-namespace Tyuiu.PimenovaTS.Sprint1.Task3.V13.Test
+namespace Tyuiu.PimenovaTS.Sprint1.Task4.V28.Test
 {
     [TestClass]
     public class DataServiceTest
@@ -12,9 +11,11 @@ namespace Tyuiu.PimenovaTS.Sprint1.Task3.V13.Test
         public void ValidExspression()
         {
             DataService ds = new DataService();
-            double number = 123;
-            var res = ds.MultiplyOfDigits(number);
-            Assert.AreEqual(6, res);
+            double x = 0;
+            double y = 0;
+            var res = ds.Calculate(x, y);
+            Assert.AreEqual(1, res);
+
         }
     }
 }
