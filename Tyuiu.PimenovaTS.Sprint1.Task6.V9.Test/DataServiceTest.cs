@@ -11,7 +11,7 @@ namespace Tyuiu.PimenovaTS.Sprint1.Task6.V9.Test
         [TestMethod]
         public void ValidString()
         {
-            string strtest = "жизнь прекрасна";
+            string strtest = "мы в лесу, гуляем мы";
             DataService ds = new DataService();
             string res = ds.MoveLetterToStart(strtest);
             Assert.AreEqual("ьжизн апрекрасн", res);
