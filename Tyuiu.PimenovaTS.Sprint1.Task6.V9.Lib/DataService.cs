@@ -14,7 +14,7 @@ namespace Tyuiu.PimenovaTS.Sprint1.Task6.V9.Lib
             string[] array = new string[] { };
             string s = "жизнь прекрасна";
             string[] st = s.Split(' ');
-            for (int i = 0; i < st.Length-1; i++)
+            for (int i = 0; i < st.Length; ++i)
             {
 
                 st[i] = st[i].Last() + st[i];
